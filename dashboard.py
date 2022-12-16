@@ -4,7 +4,7 @@ import plotly.express as px; #importing plotly for making Graph
 import pandas as pd #importing pandas for doing operations on DataFrame
 
 #importing and selecting Attributes for doing analysis on DataFrame
-df = pd.read_csv("C:\\Users\\Prerna kamboj\\Documents\\Python\\heart.csv")
+df = pd.read_csv("heart.csv")
 df = df.drop(['ExerciseAngina','FastingBS','Oldpeak','ST_Slope','ChestPainType'],axis=1)
 
 st.set_page_config(page_title="Heart Disease Analysis",
